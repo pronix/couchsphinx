@@ -14,11 +14,11 @@ spec = Gem::Specification.new do |spec|
 
   spec.platform = Gem::Platform::RUBY
   spec.name = 'couchsphinx'
-  spec.homepage = 'http://github.com/ulbrich/couchsphinx'
+  spec.homepage = 'http://github.com/pronix/couchsphinx'
   spec.version = '0.2'
-  spec.author = 'Jan Ulbrich'
+  spec.author = 'Pronix team / Jan Ulbrich'
   spec.email = 'jan.ulbrich @nospam@ holtzbrinck.com'
-  spec.summary = 'A full text indexing extension for CouchDB/CouchRest using Sphinx.'
+  spec.summary = 'A full text indexing extension for CouchDB/CouchRest/SimplyStored using Sphinx.'
   spec.files = files
   spec.require_path = '.'
   spec.test_files = Dir.glob('tests/*.rb')
@@ -82,3 +82,4 @@ EOF
 
   File.open('couchsphinx.gemspec', 'w').write(template)
 end
+

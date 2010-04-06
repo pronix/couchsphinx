@@ -128,13 +128,13 @@ module CouchSphinx #:nodoc:
       end
 
       # Returns the encoded data as XML.
-      
+
       def to_xml
         return to_s
       end
 
       # Returns the encoded data as XML.
-      
+
       def to_s
         return self.xml_header + self.xml_docs.join + self.xml_footer
       end
@@ -202,16 +202,17 @@ module CouchSphinx #:nodoc:
       end
 
       # Returns the encoded data as XML.
-      
+
       def to_xml
         return to_s
       end
 
       # Returns the encoded data as XML.
-      
+
       def to_s
         return self.xml
       end
     end
   end
 end
+
